@@ -13,10 +13,10 @@ class vector:
         return '(%s,%.3f)' % (self.word, self.weight)
 
     def __gt__(self, other):
-        return self.word>other.word
+        return self.word > other.word
 
     def __lt__(self, other):
-        return self.word<other.word
+        return self.word < other.word
 
     def __ne__(self, other):
         return self.word != other.word
